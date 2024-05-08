@@ -39,7 +39,9 @@ Gene Ontology: The ontology data is in the file go-basic.obo. This structure is 
 - subontology_roots = {'BPO':'GO:0008150',
                      'CCO':'GO:0005575',
                      'MFO':'GO:0003674'}
-- Training sequences: train_sequences.fasta contains the protein sequences for the training dataset.
+
+
+Training sequences: train_sequences.fasta contains the protein sequences for the training dataset.
 
 This files are in FASTA format, a standard format for describing protein sequences. The proteins were all retrieved from the UniProt data set curated at the European Bioinformatics Institute.
 The header contains the protein's UniProt accession ID and additional information about the protein. Most protein sequences were extracted from the Swiss-Prot database, but a subset of proteins that are not represented in Swiss-Prot were extracted from the TrEMBL database. In both cases, the sequences come from the 2022_05 release from 14-Dec-2022. More information can be found here.
